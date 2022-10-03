@@ -1,0 +1,471 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>GE Future | GE Future</title><meta name="author" content="GE"><meta name="copyright" content="GE"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="title: 游戏开发date: 2022-10-04 00:07:17 浅谈游戏开发想必点进这篇文章的大部分人和我一样，也是怀着开发一款属于自己的游戏才踏入互联网的行业道路中，今天我们就来聊聊游戏开发中游戏程序的内容吧。 首先我们想要踏入游戏开发这个行业，就要清楚游戏开发中到底有哪些岗位，哪些岗位适合我们去做，哪些是我们感兴趣的。（此文只对游戏开发的大致方向以及内容进行介绍，其中的具体技术不做过">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GE Future">
+<meta property="og:url" content="http://example.com/2022/10/04/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/index.html">
+<meta property="og:site_name" content="GE Future">
+<meta property="og:description" content="title: 游戏开发date: 2022-10-04 00:07:17 浅谈游戏开发想必点进这篇文章的大部分人和我一样，也是怀着开发一款属于自己的游戏才踏入互联网的行业道路中，今天我们就来聊聊游戏开发中游戏程序的内容吧。 首先我们想要踏入游戏开发这个行业，就要清楚游戏开发中到底有哪些岗位，哪些岗位适合我们去做，哪些是我们感兴趣的。（此文只对游戏开发的大致方向以及内容进行介绍，其中的具体技术不做过">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-10-03T16:32:34.651Z">
+<meta property="article:modified_time" content="2022-10-03T16:35:44.797Z">
+<meta property="article:author" content="GE">
+<meta name="twitter:card" content="summary"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2022/10/04/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'GE Future',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-10-04 00:35:44'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">GE Future</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">No title</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-10-03T16:32:34.651Z" title="Created 2022-10-04 00:32:34">2022-10-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-10-03T16:35:44.797Z" title="Updated 2022-10-04 00:35:44">2022-10-04</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>title: 游戏开发<br>date: 2022-10-04 00:07:17</p>
+<h1 id="浅谈游戏开发"><a href="#浅谈游戏开发" class="headerlink" title="浅谈游戏开发"></a>浅谈游戏开发</h1><p>想必点进这篇文章的大部分人和我一样，也是怀着开发一款属于自己的游戏才踏入互联网的行业道路中，今天我们就来聊聊游戏开发中游戏程序的内容吧。</p>
+<p>首先我们想要踏入游戏开发这个行业，就要清楚游戏开发中到底有哪些岗位，哪些岗位适合我们去做，哪些是我们感兴趣的。（此文只对游戏开发的大致方向以及内容进行介绍，其中的具体技术不做过多讲解）</p>
+<p>![](W:\Desktop\未命名文件5 - 亿图脑图MindMaster 和另外 8 个页面 - 个人 - Microsoft​ Edge 2022_9_10 11_11_47(1).png)</p>
+<p>由上图可见一款游戏开发的岗位非常多，可见独立开发游戏的工作是非常艰巨的。那么我就只挑选游戏程序岗来进行详细的讲解。</p>
+<h2 id="一、游戏客户端开发"><a href="#一、游戏客户端开发" class="headerlink" title="一、游戏客户端开发"></a>一、游戏客户端开发</h2><p>游戏的客户端开发偏重于游戏玩法的实现，也就是常说的Gameplay，例如游戏的战斗系统怎么实现、任务流程怎么进行、UI界面如何交互等等。再细分一点的话就有：</p>
+<h3 id="3C（Character，Camera，Controller）"><a href="#3C（Character，Camera，Controller）" class="headerlink" title="3C（Character，Camera，Controller）"></a>3C（Character，Camera，Controller）</h3><p>从字面上来看，我们可以这样理解</p>
+<ul>
+<li>Character，表示一个或多个游戏角色，玩家可以扮演该角色、也可以在游戏中可以观察该角色的行为。</li>
+<li>Camera ，表示一个或多个摄像机，以此来辅助玩家观察游戏世界，增加玩家的体验感和沉浸感。</li>
+<li>Control，表示用一个或多个控制设备，设置特定的交互规则来使玩家控制对应的角色。</li>
+</ul>
+<p><strong>Character（角色）</strong>，一般是游戏中的主角，代表着玩家的物理容器，拥有着鲜明的形象特点（体型、剪影、配色、材质等）和行为方式（移动方式、战斗方式等），能够以最为简洁的表达向玩家提供游戏的基本信息。好的角色设计可以让玩家相对容易的根据外观、姓名、对话等来了解其有哪些能力、故事背景等等。</p>
+<p>一个角色的诞生需要经过概念与背景设计、原画设计、三维模型设计（3D游戏）、动画设计、技能设计、程序实现、测试反馈等多个流程，同时我们还要考虑是否允许玩家自定义角色形象、设计内容是否与游戏背景冲突等。当然，游戏中角色通常不止一个，比如RPG中需要多个角色（流程是相似的）来构建故事和冲突，主角团之间不同角色还可以通过互补来丰富游戏的体验，如果是多人竞技游戏，还需要注意不同Character设计的平衡性。</p>
+<p><strong>Camera（相机）</strong> ，用于展示玩家所看到的东西，决定了玩家观察游戏世界的方式。我们可以选择第一人称、第三人称或者是俯视的上帝视角等。<strong>第一人称</strong>的Camera可以有更强的<strong>代入感</strong>和<strong>沉浸感</strong>（常用于射击游戏、恐怖游戏、解密游戏等），但是一定程度上失去了对角色的形象展示而且容易让部分玩家感到眩晕；<strong>第三人称</strong>可以让玩家更好的欣赏角色和游戏世界（常见的RPG、ACT、格斗游戏），通过角色的代入也能很好融入到游戏内部，是比较常见的方案；而对于RTS这种需要观察多个角色的游戏类型，我们通常会采用<strong>等轴镜头、俯视镜头</strong>来设置相机的模式。例如最近了解到的一款比较优秀的恐怖游戏《采石场惊魂》其中采用的叙述故事性的相机视角非常新颖有创新力。除了相机的切换，Camera还可以通过<strong>FOV变化</strong>（准镜瞄准）、<strong>特效变化</strong>、<strong>后处理变化</strong>、<strong>震动变化</strong>（ACT战斗）等方式来给玩家提供更多的信息和更丰富的体验，而这些效果变化的具体数值和时机是需要我们不断测试和优化的。</p>
+<p><strong>Control（控制）</strong>，代表着输入到响应的整个过程。控制首先要考虑的就是交互按钮是否符合玩家习惯、人体工学。由于游戏设备经过几十年的发展已经基本成型（<strong>手柄、键鼠为主，还有VR、街机</strong>等），而且大部分游戏开发商只做游戏软件，所以很少需要我们去考虑硬件的设计。我们通常更关注的是<strong>按钮的匹配规则</strong>（比如玩家下蹲肯定不能对应一个向上的按钮），<strong>UI的交互方式</strong>（尤其是移动端现在面临屏幕小、按钮多的问题）等，这些通常会交给UX的同事去做设计。</p>
+<p>其次，Control也涵盖了<strong>“当玩家进行操作时如何将表现反馈给玩家”</strong>这一点，这时候他更像是一个衔接玩家行为与游戏表现的抽象概念。具体来说，我们按下按钮后，玩家有多少时间进行下一步的反应？游戏中的角色的移动速度、镜头、UI、音效应该有怎样的变化？变化规则应该通过什么方式传递给玩家？这些内容与Character和Camera的设计是息息相关的。</p>
+<p><strong>概括来讲，3C表达了从玩家的输入到游戏角色的响应再到这一帧的画面如何被相机记录下来的过程。</strong>我们在上手一个游戏的时候，很快就能够从3C的差异上对该游戏进行分类和定义，比如他是第一人称还是第三人称，是ACT战斗还是射击类型。从某种程度上说3C展示了一个游戏最核心的体验，指导玩家学习并上手，很多情况下与我们常提到的<strong>Gameplay</strong>可以认为是等价的。在设计游戏时候，我们可以简单的将游戏3C分为<strong>基础3C和高级3C</strong>，基础3C决定游戏的基本操作和交互方式，比如<strong>玩家按钮如何响应、角色的基本轮廓和特点、可以做哪些基本行为、我们的相机视角有哪些</strong>等。而高级3C是在基础3C上的拓展，角色可以有<strong>变化的形象、更丰富的移动方式以及更多样的镜头效果和反馈</strong>。比如，在战神4和蝙蝠侠中，我们移动使用的是第三人称的靠肩视角，角色屏占比为1&#x2F;4的<strong>基础3C</strong>，可以给玩家营造角色魁梧、行为充满力量的厚重感。而战斗中动态变化的镜头以及可以扔出的斧头和勾爪则是属于<strong>高级3C</strong>，这些加强了游戏时的沉浸感和真实感，让玩家被代入到角色的行为与故事之中。</p>
+<h3 id="游戏程序中的3C"><a href="#游戏程序中的3C" class="headerlink" title="游戏程序中的3C"></a>游戏程序中的3C</h3><p>简单来说，每一款游戏都需要将前面提到的内容抽象到代码层面，封装好并交给策划去进行设计和拓展。比如虚幻引擎里面就内置了一个成熟的<strong>Gameplay系统</strong>，你可以看到Playercontroller、Cameramanager以及Character等等的C++类，这些类与前面提到的3C是非常相似的概念。游戏中所有<strong>拥有移动、碰撞能力的对象都应该继承自Character</strong>，<strong>响应按钮事件的逻辑应该存放在Controller里面</strong>，<strong>而摄像机的位置、特效、震动等逻辑都被封装到了CameraManager里面</strong>，这是Unreal多年来积累的一种面向对象的3C设计方案。</p>
+<p><img src="https://pic3.zhimg.com/80/v2-6c6f883e317d56c53ecb47bc8e3e2e86_720w.jpg" alt="img"></p>
+<p>角色动画这块的系统非常复杂，所以需要被单独抽离出来。在大部分引擎中，动画一般是通过<strong>专门的动画系统</strong>来驱动角色身上的<strong>蒙皮骨骼模型</strong>进行模拟。</p>
+<p><img src="https://pic4.zhimg.com/80/v2-dd9f802a93ca72d756ea9bb82e84513b_720w.jpg" alt="img"></p>
+<p>3C涉及游戏的核心系统，其内容是与游戏玩法高度相关的，所以不同的游戏的3C都有所不同，而且很可能差异很大。比如常见的ARPG，设计层面上要有一个完整的故事和一个个性鲜明的角色，而程序上我们需要实现一个可玩的有打击感的战斗系统（涉及到复杂的<strong>动画系统</strong>、<strong>特效系统</strong>、<strong>镜头处理、音效、震动反馈、后处理</strong>等）、角色成长系统（<strong>数值</strong>计算）、<strong>移动系统</strong>（攀爬、游泳、飞行等）、定制的动画以及<strong>分镜系统</strong>等。而在其他的游戏中，还可能有<strong>关卡生成系统</strong>（我的世界）、<strong>载具系统</strong>（极品飞车）、以及各种特殊的与游戏规则高度相关的<strong>定制系统</strong>（文明）。这些系统深入起来并不容易，但是却往往被大家所忽略。</p>
+<p>对于3C程序来说，确实存在一些相对通用的技术与功能，比如<strong>Gameplay框架、状态机FSM&#x2F;HFSM</strong>（比如逻辑状态机用于衔接角色的行为表现），<strong>网络同步，动画系统，移动系统</strong>等，但是由于国内游戏行业的发展不够成熟以及这些内容并不适用用所有游戏，所以造成了很多Gameplay程序发展方向不明确的问题。此外，像一些其他技术如<strong>FOV分层渲染、描边、物理破碎、音效、界面特效</strong>等实现虽然可能会交给渲染、音频、UI等其他程序做，但3C程序理论上也要做到理解并负责将其整合到现有游戏的系统内。</p>
+<p>实际项目中，游戏涉及到的技术很杂，很多时候不那么好划分，再加上项目的人力有限，3C程序也没有必要给自己限制在某些技术范围内，要根据个人发展以及项目情况适当了解和学习其他模块的知识，如渲染、物理、AI等内容。</p>
+<h3 id="UI开发"><a href="#UI开发" class="headerlink" title="UI开发"></a>UI开发</h3><p>“ 游戏就是 UI。游戏本身就是一种互动，它是一个交互的过程。”（ 游戏美术师 speedTurtle3.0 )</p>
+<p>即 UI 不仅包含传统定义中的用户图形界面，还包含游戏的实时画面以及其他部分。这种理解非常有意思，因为它把游戏本体变成了载体的一部分，即游戏也是交互媒介的一部分。与其说我们是在“玩游戏”，到不如说整个过程我们是在“玩 UI ”。根据这种定义，玩家和 UI 的接触范围被远远地扩大了，同时游戏中的各个系统更有可能和 UI 产生更强的交集。</p>
+<p>考虑UI框架层是否有扩展需求，对应工具链的开发、使用、迭代、维护是不是便于进一步优化及二次开发插件；如果有高性能需求，是否以及具备较好的性能等。简单举个游戏中的例子，就是做一个背包界面，背包里面用于存放人物身上的物品，点击时会显示物品的具体信息（属性、数量、价格），并且可以出售、丢弃、购买、整理等。比较经典的例子就是就是生化危机系列游戏中的背包UI界面，通过方格的形式来对背包容量进行一个划分，每样物品占据的方格也不同，玩家通过正确的位置放置来实现容量的最大化，那么这个操作的实现也是客户端开发工程师的内容。</p>
+<p>![image-20220910120929211](C:\Users\GE gie gie\AppData\Roaming\Typora\typora-user-images\image-20220910120929211.png)</p>
+<p>​                                                                                                            《生化危机8》背包系统</p>
+<p><img src="https://di.gameres.com/attachment/forum/202202/09/094205zsvcwk6vdc2jw0v0.jpg" alt="img"></p>
+<p>​                                                                                                            《This War of Min》的背包系统</p>
+<p>而关于好的游戏 UI：</p>
+<p>“玩家和虚拟世界的交互方式，如同一种语言。不同语言的人，肯定无法交流。但是如果使用同一种语言，这种交流便是可行的。UI 能很清晰地告诉玩家什么能做，什么不能做。如果没有 UI ，玩家可能无法以正确方式，或以设计师期望的方式和游戏交互。”（ 游戏设计师 Byonet ）</p>
+<p>“虽然诸如像《Last of Us Part 2》的游戏会弱化 UI，看似把 UI 隐藏了。但是这种设计实际是为了和 gameplay 融合，帮助玩家进入心流。等于弱化的 UI 也在这个过程中发挥了作用。”（ 游戏美术师 speedTurtle3.0 )</p>
+<p><img src="https://di.gameres.com/attachment/forum/202202/09/094203ia7xfsfyal5jczjx.jpg" alt="img"></p>
+<h3 id="游戏逻辑开发"><a href="#游戏逻辑开发" class="headerlink" title="游戏逻辑开发"></a>游戏逻辑开发</h3><p>通俗点说就是怎么去设计和实现一个游戏的玩法。例如游戏的关卡怎么通关、何时自动存档、武器应该怎么获得、死亡判定条件是什么等等，这些都属于游戏逻辑的范畴之内。就拿FPS游戏为例，<strong>武器与技能的制作和使用</strong>（包括武器的切换方式、数值计算规则、武器结构的拆分与组装等）、<strong>角色的第一人称和第三人称的模型效果</strong>（包括角色的形象设计与展示、如何在游戏中自由切换一三人称、第一人称是否能看到下半身等）、<strong>角色的动画表现</strong>（包括移动、交互、开火等行为以及各种道具的动画）；<strong>摄像机</strong>我们要考虑<strong>基本视角</strong>（第一人称）、<strong>镜头的切换</strong>（支持哪些特殊视角、不同视角的切换规则、是否有ADS瞄准状态）、<strong>镜头效果</strong>（包括屏幕后处理变化、后坐力震动效果设计）；<strong>控制上</strong>根据不同的平台要考虑不同的设计，比如<strong>按键的位置、大小、是否允许自定义按键，按键的响应规则和响应时间</strong>等等。我们来简单分析一下FPS游戏有哪些需要我去实现的基本动作：射击、换弹、换枪、死亡。硬核一点的射击游戏如武装突袭3，逃离塔克夫，还有侧身射击动作、跳跃动作、探头的角度大小等等。首先拿基本的射击动作来举例，在对射击动作的处理时，命中的判定是看玩家的准心位置的，也就是说命中的判断逻辑是看目标是否在我方角色摄像头的正中心范围之内，而不是看目标是否在我们的枪前面。游戏逻辑的不同，玩法也大不相同。</p>
+<p>![image-20220910124234194](C:\Users\GE gie gie\AppData\Roaming\Typora\typora-user-images\image-20220910124234194.png)</p>
+<p>就拿经典的侠盗猎车手系列罪恶都市和侠盗猎车手V来对比，为什么罪恶都市的角色不会游泳，一下水就会被判定为死亡？因为他的游戏逻辑设定是角色不可游泳，而后者的游戏逻辑更新了，设定角色是可游泳，甚至可以潜水。可见游戏逻辑越丰富，玩法也更加多样性，但是开发的难度也会随之增加。</p>
+<p>![image-20220910124246407](C:\Users\GE gie gie\AppData\Roaming\Typora\typora-user-images\image-20220910124246407.png)</p>
+<h3 id="网络层"><a href="#网络层" class="headerlink" title="网络层"></a>网络层</h3><p>游戏中的网络模块与其他软件系统的基本原理并无差异，基本上是解决如何把网络消息快速安全的发送给其他端，然后其他端及时地处理该消息并作出对应的游戏表现。最经典的就是要防御游戏外挂等。（此模块在服务端开发会详细介绍到）</p>
+<h3 id="渲染"><a href="#渲染" class="headerlink" title="渲染"></a>渲染</h3><p>具体是指软件由模型生成图形的过程，模型是用语言或者数据结构进行严格的定义的三维物体或虚拟场景的描述，它包括几何、视点、纹理、照明和阴影等信息。（实际上渲染模块主要是引擎岗的内容，下面会介绍到）</p>
+<p><img src="https://nimg.ws.126.net/?url=http://dingyue.ws.126.net/9UmcA8cJ9cbd4pbUDfjCobr5lmOsbGO13He2O5QDd7dTv1559035138073.jpg&thumbnail=660x2147483647&quality=80&type=jpg" alt="img"></p>
+<h3 id="工具链"><a href="#工具链" class="headerlink" title="工具链"></a>工具链</h3><p>比如说游戏编辑器、自动打包、测试平台等等。（如魔兽争霸3强大的地图编辑器）我曾经也做过几张魔兽争霸3的地图，就跟游戏引擎工具使用的原理一样，有人帮我们造好了轮子，随时可以发挥自己的创作力和想象力进行制作。但是若想完全实现自己的需求，则需要更深的知识，才能达到自己造轮子的要求。对工具链开发岗位感兴趣的同学可以去了解一下这篇文章：《以架构和工具链优化Unity3D游戏开发流水线》<a target="_blank" rel="noopener" href="https://blog.csdn.net/sinat_14921509/article/details/80126474">(51条消息) 以架构和工具链优化Unity3D游戏开发流水线_苏小宓的博客-CSDN博客</a></p>
+<p><img src="https://img.3dmgame.com/uploads/images/news/20200515/1589536768_699167.jpg" alt="img"></p>
+<h3 id="SDK"><a href="#SDK" class="headerlink" title="SDK"></a>SDK</h3><p>接入Android、iOS系统、支付系统、广告系统等等。</p>
+<h2 id="二、游戏引擎开发"><a href="#二、游戏引擎开发" class="headerlink" title="二、游戏引擎开发"></a>二、游戏引擎开发</h2><p>​      游戏引擎是指一些已编写好的可编辑电脑游戏系统或者一些互交式实时图像应用程序的核心组件。这些系统为游戏设计者提供各种编写游戏所需的各种工具，其目的在于让游戏设计者能容易和快速地做出游戏程序而不用由零开始。大部分都支持多种操作系统平台，如Linux、Mac OS X、微软Windows。游戏引擎包含以下系统：渲染引擎（即“渲染器”，含二维图像引擎和三维图像引擎）、物理引擎、碰撞检测系统、音效、脚本引擎、电脑动画、人工智能、网络引擎以及场景管理。下面介绍一些PC端以及移动端常用的主流游戏引擎以及他们的代表作品。</p>
+<h3 id="端游引擎"><a href="#端游引擎" class="headerlink" title="端游引擎"></a>端游引擎</h3><ul>
+<li>Unreal （虚幻引擎）代表作：《绝地求生》、《战争机器》系列、《质量效应》系列、《荣耀勋章》系列</li>
+<li>CryEngine（尖叫引擎）代表作：《孤岛危机系列》</li>
+<li>Source（起源）代表作：《CS》系列、《Dota 2》</li>
+<li>Frostbite Engine（寒霜引擎）代表作：《上古卷轴》系列、《战地系列》、《极品飞车16&#x2F;18》</li>
+<li>IW Engine 代表作：《使命召唤》系列Havok物理引擎，很多3A游戏以及好莱坞大片都用了该物理引擎</li>
+</ul>
+<h3 id="手机引擎"><a href="#手机引擎" class="headerlink" title="手机引擎"></a>手机引擎</h3><p>Cocos2d-x、U3D、Egret、Flash Air、Corona、LayaBox</p>
+<p>其中我最近做的一个小项目手游版植物大战僵尸就用到了Cocos旗下的Cocos2d引擎。</p>
+<p> 除了这些之外还有工作室的自研引擎，比如大家熟知的《GTA5》和荒野大镖客就用到了R星旗下的RAGE引擎、《英雄联盟》也是通过自研引擎实现。</p>
+<p>​     引擎岗除了要熟练的使用游戏引擎工具外，还要熟悉写引擎的代码，不过除了极少数拥有自研引擎的工作室外，大部分引擎岗都是如何“用好”和“改好”商业引擎，不需要自己重新造轮子。但如果所用到的商业引擎没有这个功能，而你的项目又需要用到这个功能，你就需要去自己造轮子；如果这个引擎的功能无法满足项目的需求或者是太烂，你就需要进行改进。包括一些引擎工具的开发，一些系统功能的扩展和优化（修复引擎自身的bug）等都属于引擎岗的工作范围之内。引擎占比很大的一部分则是性能优化，这一模块平时会由更资深技术更强的引擎岗技术大牛来完成，引擎岗平时更多的是要和美术打交道，如何去实现更炫酷的效果。</p>
+<p>可见游戏引擎开发对如何熟练的掌握引擎开发工具是非常重要的，如果想试水游戏开发的话，我是推荐选择Unity 3d。2016年腾讯已经Kill了所有2dx项目组，全面投入到U3D，另外还有个别项目在尝试使用虚幻4 。 大家玩的腾讯系《王者荣耀》、《穿越火线》手机版等都是U3D制作。 小米的 “吃鸡”手游《小米枪战》是用虚幻4制作。 之前网易的“吃鸡”手游《荒野行动》是自研引擎 Messiah。 用Unity 3d、虚幻4 可是要给引擎厂商分成的，所以网易开了个好头，自己赚的钱自己拿。当然腾讯也有自研引擎，也许不能说服重点项目去使用吧。毕竟引擎这东西，开发的不好坑是特别多的，不能期待项目组等你修改。商业产品还是需要选择稳定的、可靠的引擎。自研引擎需要投入时间长、成本大、人力多，还得紧跟潮流，作为中小公司基本上不适合走这一条路。即使你研发出来，还得开发一套工具链，还得有一个完善活跃的社区，这些因素缺一不可。</p>
+<p>Epic Game 旗下的UE4（虚幻4）引擎虽然免费并且网上也有很多UE4引擎的使用教程，但是UE4对新手来说实在是很不友好，门槛非常高。随着之前使用UE4引擎《绝地求生》的大火，加上目前鹅厂已经大量使用UE4了，加上近期UE5的推出，以后国内UE引擎的生态会越来越好，因此如果想从事游戏开发岗位的同学花时间去学习UE引擎性价比还是非常高的。</p>
+<p>![image-20220910155741125](C:\Users\GE gie gie\AppData\Roaming\Typora\typora-user-images\image-20220910155741125.png)</p>
+<p>以下是一些UE4的学习教程推荐：</p>
+<p><strong>1、工程规范</strong></p>
+<p><strong>官方推荐的工程规范，创建某个asset文件，命名总是绞尽脑汁，那么参考这个Epic官方推荐的规范会少走很多弯路，从学习的一开始不断熟悉，成为工程组织和命名的本能吧</strong></p>
+<p><a href="https://link.zhihu.com/?target=https://github.com/Allar/ue5-style-guide">https://github.com/Allar/ue5-style-guide</a></p>
+<p><strong>2、<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=%E8%B0%8C%E5%98%89%E8%AF%9A&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2270991668%7D">谌嘉诚</a>的初学者教程</strong></p>
+<p><strong>非常趣味实施获得反馈的课程，Unreal Engine十分庞大，一个清晰的入门概览，能够做一些功能体验非常有助于提高学习的兴趣</strong></p>
+<p><a href="https://link.zhihu.com/?target=https://www.bilibili.com/video/BV164411Y732?spm_id_from=333.999.0.0">https://www.bilibili.com/video/BV164411Y732?spm_id_from&#x3D;333.999.0.0</a></p>
+<p>–简单操作，制作场景，基本的Actor操作等等</p>
+<p>–Unreal Engine4.2x的基本操作，基本使用</p>
+<p><strong>3、对于模型的理解，未来<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=blender&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2270991668%7D">blender</a>可能会非常不错，因为开源免费；通过Blender的学习实践非常有助于良好理解3D模型相关的种种，实际使用Unreal当中也会有经常用到Blender工具，游戏引擎离不开3D模型；如果想自己能够独立创意点什么就更为需要了</strong></p>
+<p><a href="https://link.zhihu.com/?target=https://www.youtube.com/user/AndrewPPrice/playlists">https://www.youtube.com/user/AndrewPPrice/playlists</a></p>
+<p>–作者讲解非常风趣，让反人类的Blender操作习惯，不知不觉间就习惯了</p>
+<p>–跟视频完成甜甜圈的建模等课程；blender的基本建模，操作，渲染、导出视频等等；作为第一个初步能够使用的blender</p>
+<p><strong>4、Epic官方的Online课程</strong></p>
+<p><strong>这个课程是Unreal Engine整体功能的概览，Unreal Engine十分庞大，一种视角是掌握其中某个核心某块，但游戏是艺术，想要自己做点什么全局掌握就是必要的了，这个课程非常好；初看很难理解在说什么，每学习一段事件回顾看看，学习进展如何了，是否能够理解到位了，这个课程可以看成是贯穿学习Unreal Engine始终的好课程</strong></p>
+<p><strong>Unreal Engine Kickstart for Developers</strong></p>
+<p><a href="https://link.zhihu.com/?target=https://learn.unrealengine.com/home/LearningPath/113226?r=False&ts=637750612305202459">https://learn.unrealengine.com/home/LearningPath/113226?r=False&ts=637750612305202459</a></p>
+<p><strong>5、CodeLikeMe的Root Motion Loco Motion</strong></p>
+<p><strong>这个系列的课程并不长，但是非常的进阶，在Unreal官网通过在线课程基本掌握了Animation相关知识后，这个课程十分有助于深入理解</strong></p>
+<p><strong>作者的讲解在一边做一边讲中进行，娓娓道来，把思考和解决问题的思路呈现出来；吃力的地方在于，使用到的蓝图节点模块都没有讲解，对于初学者，学习时间对比视频时间要乘以10来看了，但是十分值得</strong></p>
+<p><a href="https://link.zhihu.com/?target=https://www.youtube.com/watch?v=YtWbl50Jwwc&list=RDCMUClb6Jh9EBV7a_Nm52Ipll_Q&index=2">https://www.youtube.com/watch?v=YtWbl50Jwwc&list=RDCMUClb6Jh9EBV7a_Nm52Ipll_Q&amp;index&#x3D;2</a></p>
+<p><strong>6、材质Material</strong></p>
+<p><strong>Ben‘s Material Tutorial，作者是这个领域的世界级专家，这个课程比较有特点，应该是需要首先学习<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=shader&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2270991668%7D">shader</a>相关的基础知识；如果数学基础比较好，对于计算机图形学比较了解也可以直接上；这个课程就会以道出Unreal Material的设计思路，基于物理的材质；从对于视觉现象的物理拆解出发，一个个特性的去实现，比如水面材质，从波浪、透明、折射、反射、散射等等一序列的实现优化起来</strong></p>
+<p><a href="https://link.zhihu.com/?target=https://www.youtube.com/playlist?list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl">https://www.youtube.com/playlist?list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl</a></p>
+<p>–场景化的教程，案例世的展示<a target="_blank" rel="noopener" href="https://www.zhihu.com/search?q=material&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2270991668%7D">material</a>的应用；从而帮助学习者理解，Unreal Material的基于物理的材质系统</p>
+<p>–基本的材质性能优化</p>
+<p><strong>7、粒子，Niagara</strong></p>
+<p><strong>UE4-VFX，作者将Unreal新的粒子系统Niagara的基本功能分为56个不到十分钟的视频讲解，以此为基础可以去分析种种能够找到的Niagara实现的酷炫效果，可以更为自由的想象设计粒子效果</strong></p>
+<p><a href="https://link.zhihu.com/?target=https://www.youtube.com/watch?v=VEG-Xp92cBk&list=PLomQNLPOWtzYXU_pRIUVVEV9uY7bjENZ5">https://www.youtube.com/watch?</a></p>
+<p> 游戏引擎开发更偏重于游戏的画面和性能，并且引擎岗会更多的涉及底层的技术知识。引擎岗细分为多个方向：渲染、动画、物理、编辑器、脚本、性能以及开发工具等，渲染又可细分为光照、着色、阴影、抗锯齿、后处理、特效等。游戏引擎中也包含了渲染引擎。</p>
+<p><img src="https://picx.zhimg.com/v2-9433d3b4f06b199e17d9a0f5200559c8_r.jpg?source=1940ef5c" alt="preview"></p>
+<p>以下下出自一位渲染方向的博主自述：</p>
+<p>我本人是渲染方向的，具体的工作而言，你可能会去实现某种画面表现的特性，比如天气系统，你怎么实现动态昼夜变化的效果？比如粒子系统，UE的Niagara已经非常强大了，你当然不需要自己去实现一个粒子系统，但是你如何运用它的强大功能去实现一些酷炫的效果？比如像最后的生还者2中的雪粒子附着到人物身上、随着手电筒的光束照射，虫粒子群会随之聚集和扩散等。Niagara系统是可以在内置的脚本中写逻辑的，因此几乎你想要的粒子行为和表现效果，都可以通过代码（和美术）来实现。</p>
+<p>从事游戏渲染方向需要准备许多知识，熟悉3D硬件渲染管线、底层图形API（DX、OpenGL&#x2F;ES、Metal、Vulkan）、熟悉Shader语言（CG、HLSL、GLSL）、熟悉游戏引擎、熟悉游戏中常见的渲染算法（地形、水面、天空、静态模型、骨骼动画、粒子、阴影、反射、光照图、全局光照、PBR、后期处理等）、熟悉常见的渲染优化算法和技术（视椎体剪裁、场景层次结构、遮挡剪裁、动态合批、GPU Instance等），其中计算机图形学尤为重要。</p>
+<p>以下推荐一些图形学渲染方向的学习资料。</p>
+<h3 id="图形学基础"><a href="#图形学基础" class="headerlink" title="图形学基础"></a>图形学基础</h3><ul>
+<li><a href="https://link.zhihu.com/?target=https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html">GAMES101: 现代计算机图形学入门 -UCSB 闫令琪</a></li>
+<li><a href="https://link.zhihu.com/?target=http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm">什么是计算机图形学? -中国科学技术大学 刘利刚</a></li>
+<li><a href="https://link.zhihu.com/?target=https://book.douban.com/subject/26868819/">Fundamentals of Computer Graphics</a></li>
+</ul>
+<h3 id="实践：软光栅"><a href="#实践：软光栅" class="headerlink" title="实践：软光栅"></a>实践：软光栅</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/24786878/answer/1483055155">如何开始用 C++ 写一个光栅化渲染器？ -知乎</a></li>
+<li><a href="https://link.zhihu.com/?target=https://github.com/ssloy/tinyrenderer/wiki">Tiny renderer or how OpenGL works: software rendering in 500 lines of code</a></li>
+</ul>
+<h3 id="实践：光线追踪"><a href="#实践：光线追踪" class="headerlink" title="实践：光线追踪"></a>实践：光线追踪</h3><ul>
+<li><a href="https://link.zhihu.com/?target=https://raytracing.github.io/">Ray Tracing in One Weekend Series</a></li>
+<li><a href="https://link.zhihu.com/?target=https://wjakob.github.io/nori/%23">Nori: an educational ray tracer</a></li>
+<li><a href="https://link.zhihu.com/?target=http://www.kevinbeason.com/smallpt/">smallpt: Global Illumination in 99 lines of C++</a></li>
+</ul>
+<h3 id="渲染进阶"><a href="#渲染进阶" class="headerlink" title="渲染进阶"></a>渲染进阶</h3><ul>
+<li><a href="https://link.zhihu.com/?target=https://www.pbr-book.org/3ed-2018/contents">Physically Based Rendering: From Theory To Implementation</a></li>
+<li><a href="https://link.zhihu.com/?target=https://www.realtimerendering.com/">Real-Time Rendering</a></li>
+<li><a href="https://link.zhihu.com/?target=https://www.bilibili.com/video/BV1rL411x7eh">渲染系列课程 -南京理工大学 王贝贝</a></li>
+<li><a href="https://link.zhihu.com/?target=https://www.bilibili.com/video/BV1my4y1z76s?p=3">Chinagraph2020会前课程3：真实感图形渲染科研入门 -UCSB 闫令琪</a></li>
+<li><a href="https://link.zhihu.com/?target=https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html">GAMES202: 高质量实时渲染 -UCSB 闫令琪</a></li>
+</ul>
+<h3 id="图形学API"><a href="#图形学API" class="headerlink" title="图形学API"></a>图形学API</h3><ul>
+<li><a href="https://link.zhihu.com/?target=https://learnopengl-cn.github.io/">Learn OpenGL CN</a></li>
+<li><a href="https://link.zhihu.com/?target=https://vulkan-tutorial.com/">Vulkan Tutorial</a></li>
+<li><a href="https://link.zhihu.com/?target=https://item.jd.com/12507608.html">DirectX 12 3D 游戏开发实战</a></li>
+</ul>
+<h2 id="三-、游戏服务端开发"><a href="#三-、游戏服务端开发" class="headerlink" title="三 、游戏服务端开发"></a>三 、游戏服务端开发</h2><p>   首先，要明确一点，做游戏服务器开发和做传统的web开发有着本质的区别。游戏服务器开发，如果没有经验，一开始根本没有一个明确清析的目标，不像web那样，有些明确的MVC架构，往往就是为了尽快满足策划的需求，尽快的实现功能，尽快能让游戏跑起来。但是随着功能越来越多，在老代码上面修改的越来越频繁，游戏测试时暴露出来的一堆bug，更让人觉得束手无策，这个时候我们想到了重构，想到了架构的设计。 游戏的构架设计非常重要，好的构架代码清析，责任明确，扩展性强，易调试。这些会为我们的开发省去不少时间。<strong>那要怎么样设计游戏的构架呢？</strong>可能每个游戏都不一样，但是本质上还是差不多的。 对于游戏服务器的构架设计，我们首先<strong>要了解游戏的服务器构架都有什么组成的？</strong>一款游戏到上线，<strong>需要具备哪些功能？</strong>有些人可能会说，只要让游戏跑起来，访问服务器不出问题不就行了吗？答案是不行的，游戏构架本身代表的是一个体系，它包括：</p>
+<ol>
+<li>系统初始化 </li>
+<li>游戏逻辑</li>
+<li>数据库系统</li>
+<li>缓存系统</li>
+<li>游戏日志</li>
+<li>游戏管理工具</li>
+<li>公共服务组件</li>
+</ol>
+<p>这一系统的东西都是不可少的，它们共同服务于游戏的整个运营过程。</p>
+<h3 id="一，系统初始化"><a href="#一，系统初始化" class="headerlink" title="一，系统初始化"></a><strong>一，系统初始化</strong></h3><p>系统初始化是在没有客户端连接的时候，服务器启动时所需要做的工作。<strong>基本上就是配置文件的读取，初始化系统参数。</strong></p>
+<p>但是我们必须要考虑的是：</p>
+<ul>
+<li>系统初始化需要的参数配置在哪儿，是配置在本地服务器，还是配置在数据库；</li>
+<li>服务器启动的时候去数据库取；</li>
+<li>配置的修改需不需要重启服务器等。</li>
+</ul>
+<h3 id="二，游戏逻辑"><a href="#二，游戏逻辑" class="headerlink" title="二，游戏逻辑"></a><strong>二，游戏逻辑</strong></h3><p><strong>游戏逻辑是游戏的核心功能实现，也是整个游戏的服务中心，它被开发的好坏，直接决定了游戏服务器在运行中的性能。</strong>那在<strong>游戏逻辑的开发中我们要注意些什么呢？</strong> 游戏是一种网络交互比较强的业务，好的底层通信，可以最大化游戏的性能，增加单台服务器处理的同时在线人数，给游戏带来更好的体验，至少不容易出现因为网络层导致的数据交互卡顿的现象。在这里我推荐使用<strong>Netty</strong>，它是目前最流行的NIO框架，它的用法可以在我之前的文章中查看，这里不再多说了。 有人疑问，<strong>代码也需要分层次？</strong>这个是<strong>当然</strong>了，不同的代码，代表了不同的功能实现。现在的开发语言都是面向对象的，如果我们不加思考，不加整理的把功能代码乱堆一起，起始看起来是快速实现了功能，但是到后期，如果要修改需求，或在原来的代码上增加新的需求，那真是被自己打败了。所以代码一定要分层，主要有以下几层：</p>
+<ol>
+<li><strong>协议层，</strong>也叫前后台交互层，它主要负责与前台交互协议的解析和返回数据。在这一层基本上没有什么业务逻辑实现。<strong>与前台交互的数据都在这一层开始，也在这一层终止。</strong>比如你使用了Netty框架，那么Netty的ChannelHandlerContext即Ctx只能出现在这一层，他不能出现到游戏业务逻辑代码的实现中，接收到客户端的请求，在这一层把需要的参数解析出来，再把参数传到业务逻辑方法中，业务逻辑方法处理完后，把要返回给客户端的数据再返回到这一层，在这一层组织数据，返回给客户端，这样就可以把业务逻辑和网络层分离，业务逻辑只关心业务实现，而且也方便对业务逻辑进行单元测试。</li>
+<li><strong>业务逻辑层</strong>，这里处理真正的游戏逻辑，该计算价格计算价格，该通关的通关，该计时的计时。该保存数据的保存数据。但是这一层不直接操作缓存或数据库，只是处理游戏逻辑计算。因为业务逻辑层是整个游戏事件的处理核心，所以他的处理是否正确直接决定游戏的正确性。所以<strong>这一层的代码要尽量使用面向对象的方法去实现。不要出现重复代码或相似的功能进行复制粘贴</strong>，这样修改起来非常不方便，可能是修改了某一处，而忘记了修改另外同样的代码。还要<strong>考虑每个方法都是可测试的</strong>，一个方法的行数最好不要超过一百行。另外，可以<strong>多看看设计模式的书</strong>，它可以帮助我们设计出灵活，整洁的代码。</li>
+</ol>
+<h3 id="三，数据库系统"><a href="#三，数据库系统" class="headerlink" title="三，数据库系统"></a><strong>三，数据库系统</strong></h3><p><strong>数据库是存储数据库的核心</strong>，但是游戏数据在存储到数据库的时候会经过网络和磁盘的IO,它的访问速度相对于内存来说是很慢的。一般来说，每次访问数据库都要和数据库建立连接，访问完成之后，为了节省数据库的连接资源，要再把连接断开。</p>
+<p>这样无形中又为服务器增加了开销，在大量的数据访问时，可能会更慢，而游戏又是要求低延时的，<strong>这时该怎么办呢？</strong>我们想到了<strong>数据库连接池</strong>，即把访问数据库的连接放到一个地方管理，用完我不断开，用的时候去那拿，用完再放回去。这样不用每次都建立新的连接了。</p>
+<p>但是如果要我们自己去实现一套连接池管理组件的话，需要时间不说，对技术的把控也是一个考验，还要再经过测试等等，幸好互联网开源的今天，有一些现成的可以使用，这里<strong>推荐Mybatis</strong>，即实现了代码与SQL的分离，又有足够的SQL编写的灵活性，是一个不错的选择。</p>
+<h3 id="四，缓存系统"><a href="#四，缓存系统" class="headerlink" title="四，缓存系统"></a><strong>四，缓存系统</strong></h3><p>游戏中，<strong>客户端与服务器的交互是要求低延迟的</strong>，延迟越低，用户体验越好。像之前说过的一样，低延迟就是要求服务器处理业务尽量的快，客户端一个请求过来，要在最短的时间内响应结果，最低不得超过500ms，因为加上来回的网络传输耗时，基本上就是600ms-到700ms了，再长玩家就会觉得游戏卡了。</p>
+<p>如果直接从数据库中取数据，处理完之后再存回数据库的话，这个性能是跟不上的。在服务器，数据在内存中处理是最快的，所以<strong>我们要把一部分常用的数据提前加载到内存中</strong>，比如说游戏数据配置表，经常登陆的玩家数据等。这样在处理业务时，就不用走数据库了，直接从内存中取就可以了，速度更快。</p>
+<p><strong>游戏中常见的缓存</strong>有两种：</p>
+<ol>
+<li>直接把数据存储在jvm或服务器内存中</li>
+<li>使用<strong>第三方的缓存工具，这里推荐Redis</strong>，详细的用法可以自己去查询。<strong>（本公号内有系列文章，详情见【菜单栏】- 【技术文章】 - 【基础系列】 - 【实战R1，实战R2】）</strong></li>
+</ol>
+<h3 id="五，游戏日志"><a href="#五，游戏日志" class="headerlink" title="五，游戏日志"></a><strong>五，游戏日志</strong></h3><p>日志是个好东西呀，<strong>一个游戏中更不能少了日志，而且日志一定要记录的详细。</strong>它是玩家在整个游戏中的行为记录，有了这个记录，我们就可以分析玩家的行为，查找游戏的不足，在处理玩家在游戏中的问题时，日志也是一个良好的凭证和快速处理方式。 在游戏中，日志分为：</p>
+<ol>
+<li><strong>系统日志</strong>，主要记录游戏服务器的系统情况。比如：数据库能否正常连接，服务器是否正常启动，数据是否正常加载；</li>
+<li><strong>玩家行为日志</strong>，比如玩家发送了什么请求，得到了什么物品，消费了多少货币等等；</li>
+<li><strong>统计日志，</strong>这种日志是对游戏中所有玩家某种行为的一种统计，根据这个统计来分析大部分玩家的行为，得出一些共性或不同之处，以方法运营做不同的活动吸引用户消费。</li>
+</ol>
+<p>在<strong>构架设计中，日志记录一定要做为一种强制行为</strong>，因为不强制的话，可能由于某种原因某个功能忘记加日志了，那么当这个功能出问题了，或者运营跟我们要这个功能的一些数据库，就傻眼了。又得加需求，改代码了。<strong>日志一定要设计一种良好的格式</strong>，日志记录的数据要容易读取，分解。<strong>日志行为可以用枚举描述</strong>，在功能最后的处理方法里面加上这个枚举做为参数，这样不管谁在调用这个方法时，都要去加参数描述。 俗话说，工欲善其事，必先利其器。<strong>游戏管理工具是对游戏运行中的一系列问题处理的一种工具。</strong>它不仅是给开发人员用，大多数是给运营使用。游戏上线后，我们需要针对线上的问题进行不同的处理。不可能把所有问题都让程序员去处理吧，于是程序员们想到了一个办法，给你们做一个工具，你们爱谁处理谁处理去吧。</p>
+<h3 id="六，-游戏管理工具"><a href="#六，-游戏管理工具" class="headerlink" title="六， 游戏管理工具"></a><strong>六， 游戏管理工具</strong></h3><p>游戏管理工具是一个不断增涨的系统，因为它很多时候是伴随着游戏中遇到的问题而实现的。</p>
+<p>但是根据经验，<strong>有一些功能是必须有的</strong>，比如：</p>
+<ul>
+<li>服务器管理，主要负责服务器的开启，关闭，服务器配置信息，玩家信息查询；</li>
+<li>玩家管理，比如踢人，封号；</li>
+<li>统计查询，玩家行为日志查询，统计查询，次留率查询，邮件服务，修改玩家数据等。</li>
+</ul>
+<p>根据游戏的不同要求，<strong>凡是可以能过工具实现的，都做到游戏管理工具里面。</strong>它是针对所有服务器的管理。</p>
+<p>一个好的，全的游戏管理工具，可以提高游戏运营中遇到问题处理的效率，为玩家提供更好的服务。</p>
+<h3 id="七，公共组件"><a href="#七，公共组件" class="headerlink" title="七，公共组件"></a><strong>七，公共组件</strong></h3><p>公共组件是为游戏运行中提供公共的服务。例如：</p>
+<ul>
+<li>充值服务器，我们没必须一个服用一个充值，而且你也不能对外提供多个充值服务器地址，和第三方公司对接，他们绝对不干，这是要疯呀；</li>
+<li>还有运营搞活动时的礼包码；</li>
+<li>还有注册用户的管理，玩家一个注册账号可以进不同的区等。</li>
+</ul>
+<p><strong>这些都是针对所有区服提供的服务，所以要单独做，与游戏逻辑分开</strong>，这样方便管理，部署和<a target="_blank" rel="noopener" href="https://cloud.tencent.com/product/clb?from=10680">负载均衡</a>。</p>
+<p>还有<strong>SDK的登陆验证</strong>，现在手游比较多，与渠道对接里要进行验证，这往往是很多http请求，速度慢，所以这个也<strong>要拿出来单独做</strong>，不要在游戏逻辑中去验证，因为网络IO的访问时间是不可控制的，http是阻塞的请求。</p>
+<p>所以，综上来看，<strong>一个游戏服务器起码有几个大的功能模块组成</strong>：</p>
+<ol>
+<li>游戏逻辑工程；</li>
+<li>日志处理工程；</li>
+<li>充值工程；</li>
+<li>游戏管理工具工程；</li>
+<li>用户登陆工程；</li>
+<li>公共活动工程等。</li>
+</ol>
+<p>根据游戏的不同需要，可能还有其它的。<strong>所在构架的设计中，一定要考虑到系统的分布式部署，尽量把公共的功能拆出来做</strong>，这样可以增强系统的可扩展性。</p>
+<p>下面介绍一些服务端开发的建议：</p>
+<ol>
+<li>第一部分 —— <strong>专业基础</strong>，用于指导招聘和实习考核；</li>
+<li>第二部分 —— <strong>游戏入门</strong>，讲述游戏服务器端开发的基本要点；</li>
+<li>第三部分 —— <strong>服务端架构</strong>，介绍架构设计中的一些基本原则。</li>
+</ol>
+<h3 id="一、专业基础"><a href="#一、专业基础" class="headerlink" title="一、专业基础"></a><strong>一、专业基础</strong></h3><h3 id="1-1网络"><a href="#1-1网络" class="headerlink" title="1.1网络"></a><strong>1.1网络</strong></h3><h4 id="1-1-1理解TCP-x2F-IP协议"><a href="#1-1-1理解TCP-x2F-IP协议" class="headerlink" title="1.1.1理解TCP&#x2F;IP协议"></a><strong>1.1.1理解TCP&#x2F;IP协议</strong></h4><ul>
+<li>网络传输模型</li>
+<li>滑动窗口技术</li>
+<li>建立连接的三次握手与断开连接的四次握手</li>
+<li>连接建立与断开过程中的各种状态</li>
+<li>TCP&#x2F;IP协议的传输效率</li>
+</ul>
+<p><strong>思考：</strong></p>
+<ol>
+<li>请解释DOS攻击与DRDOS攻击的基本原理</li>
+<li>一个100Byte数据包，精简到50Byte, 其传输效率提高了50%</li>
+<li>TIMEWAIT状态怎么解释？</li>
+</ol>
+<h4 id="1-1-2掌握常用的网络通信模型"><a href="#1-1-2掌握常用的网络通信模型" class="headerlink" title="1.1.2掌握常用的网络通信模型"></a><strong>1.1.2掌握常用的网络通信模型</strong></h4><ul>
+<li>Select</li>
+<li>Epoll，边缘触发与平台出发点区别与应用</li>
+<li>Select与Epoll的区别及应用</li>
+</ul>
+<h3 id="1-2存储"><a href="#1-2存储" class="headerlink" title="1.2存储"></a><strong>1.2存储</strong></h3><ul>
+<li>计算机系统存储体系</li>
+<li>程序运行时的内存结构</li>
+<li>计算机文件系统，页表结构</li>
+<li>内存池与对象池的实现原理，应用场景与区别</li>
+<li>关系数据库MySQL的使用（本公众号内有系列文章，详情见【菜单】-【</li>
+<li>共享内存</li>
+</ul>
+<h3 id="1-3程序"><a href="#1-3程序" class="headerlink" title="1.3程序"></a><strong>1.3程序</strong></h3><ul>
+<li>对C&#x2F;C++语言有较深的理解</li>
+<li>深刻理解接口，封装与多态，并且有实践经验</li>
+<li>深刻理解常用的数据结构：数组，链表，二叉树，哈希表</li>
+<li>熟悉常用的算法及相关复杂度：冒泡排序，快速排序</li>
+</ul>
+<h3 id="二、游戏开发入门"><a href="#二、游戏开发入门" class="headerlink" title="二、游戏开发入门"></a><strong>二、游戏开发入门</strong></h3><h3 id="2-1防御式编程"><a href="#2-1防御式编程" class="headerlink" title="2.1防御式编程"></a><strong>2.1防御式编程</strong></h3><p><strong>不要相信客户端数据，一定要检验。</strong>作为服务器端你无法确定你的客户端是谁，你也不能假定它是善意的，请做好自我保护。**(这是判断一个服务器端程序员是否入门的基本标准)** <strong>务必对于函数的传人参数和返回值进行合法性判断，</strong>内部子系统，功能模块之间不要太过信任，要求低耦合，高内聚。 插件式的模块设计，模块功能的健壮性应该是内建的，<strong>尽量减少模块间耦合</strong>。</p>
+<h3 id="2-2设计模式"><a href="#2-2设计模式" class="headerlink" title="2.2设计模式"></a><strong>2.2设计模式</strong></h3><p><strong>道法自然。</strong>不要迷信，迷恋设计模式，更不要生搬硬套 <strong>简化</strong>，简化，再简化，用最简单的办法解决问题 借大宝一句话：设计本天成，妙手偶得之</p>
+<h3 id="2-3网络模型"><a href="#2-3网络模型" class="headerlink" title="2.3网络模型"></a><strong>2.3网络模型</strong></h3><ul>
+<li><strong>自造轮子:</strong> Select, Epoll， <strong>Epoll一定比Select高效吗？</strong></li>
+<li><strong>开源框架</strong>: Libevent, libev, ACE。<strong>（本公众号内有Libevent源码详解，详情见【菜单】-【开源软件】-【源码分析】-【网络库I】）</strong></li>
+</ul>
+<h3 id="2-4数据持久化"><a href="#2-4数据持久化" class="headerlink" title="2.4数据持久化"></a><strong>2.4数据持久化</strong></h3><ul>
+<li>自定义文件存储，如《梦幻西游》</li>
+<li>关系数据库: MySQL</li>
+<li>NO-SQL数据库: MongoDB</li>
+<li>选择存储系统要考虑到因素：稳定性，性能，可扩展性</li>
+</ul>
+<h3 id="2-5内存管理"><a href="#2-5内存管理" class="headerlink" title="2.5内存管理"></a><strong>2.5内存管理</strong></h3><ul>
+<li>使用内存池和对象池，禁止运行期间动态分配内存</li>
+<li>对于输入输出的指针参数，严格检查，宁滥勿缺</li>
+<li>写内存保护，使用带内存保护的函数(strncpy, memcpy, snprintf, vsnprintf等)</li>
+<li>严防数组下标越界</li>
+<li>防止读内存溢出，确保字符串以’\0’结束</li>
+</ul>
+<h3 id="2-6日志系统"><a href="#2-6日志系统" class="headerlink" title="2.6日志系统"></a><strong>2.6日志系统</strong></h3><ul>
+<li><strong>简单高效</strong>，大量日志操作不应该影响程序性能</li>
+<li><strong>稳定</strong>，做到服务器崩溃是日志不丢失</li>
+<li><strong>完备</strong>，玩家关键操作一定要记日志，理想的情况是通过日志能重建任何时刻的玩家数据</li>
+<li><strong>开关</strong>，开发日志的要加级别开关控制</li>
+</ul>
+<h3 id="2-7通信协议"><a href="#2-7通信协议" class="headerlink" title="2.7通信协议"></a><strong>2.7通信协议</strong></h3><ul>
+<li>采用**PDL(Protocol Design Language)**， 如Protobuf，可以同时生成前后端代码，减少前后端协议联调成本， 扩展性好</li>
+<li><strong>JSON</strong>，文本协议，简单，自解释，无联调成本，扩展性好，也很方便进行包过滤以及写日志</li>
+<li><strong>自定义二进制协议</strong>，精简，有高效的传输性能，完全可控，几乎无扩展性</li>
+</ul>
+<h3 id="2-8全局唯一Key（GUID）"><a href="#2-8全局唯一Key（GUID）" class="headerlink" title="2.8全局唯一Key（GUID）"></a><strong>2.8全局唯一Key（GUID）</strong></h3><ul>
+<li>为合服做准备</li>
+<li>方便追踪道具，装备流向</li>
+<li>每个角色，装备，道具都应对应有全局唯一Key</li>
+</ul>
+<h3 id="2-9多线程与同步"><a href="#2-9多线程与同步" class="headerlink" title="2.9多线程与同步"></a><strong>2.9多线程与同步</strong></h3><ul>
+<li>消息队列进行同步化处理</li>
+</ul>
+<h3 id="2-10状态机"><a href="#2-10状态机" class="headerlink" title="2.10状态机"></a><strong>2.10状态机</strong></h3><ul>
+<li>强化角色的状态</li>
+<li>前置状态的检查校验</li>
+</ul>
+<h3 id="2-11数据包操作"><a href="#2-11数据包操作" class="headerlink" title="2.11数据包操作"></a><strong>2.11数据包操作</strong></h3><ul>
+<li>合并, 同一帧内的数据包进行合并，减少IO操作次数</li>
+<li>单副本, 用一个包尽量只保存一份，减少内存复制次数</li>
+<li>AOI同步中减少中间过程无用数据包</li>
+</ul>
+<h3 id="2-12状态监控"><a href="#2-12状态监控" class="headerlink" title="2.12状态监控"></a><strong>2.12状态监控</strong></h3><ul>
+<li>随时监控服务器内部状态</li>
+<li>内存池，对象池使用情况</li>
+<li>帧处理时间</li>
+<li>网络IO</li>
+<li>包处理性能</li>
+<li>各种业务逻辑的处理次数</li>
+</ul>
+<h3 id="2-13包频率控制"><a href="#2-13包频率控制" class="headerlink" title="2.13包频率控制"></a><strong>2.13包频率控制</strong></h3><ul>
+<li>基于每个玩家每条协议的包频率控制，瘫痪变速齿轮</li>
+</ul>
+<h3 id="2-14开关控制"><a href="#2-14开关控制" class="headerlink" title="2.14开关控制"></a><strong>2.14开关控制</strong></h3><ul>
+<li>每个模块都有开关，可以紧急关闭任何出问题的功能模块</li>
+</ul>
+<h3 id="2-15反外挂反作弊"><a href="#2-15反外挂反作弊" class="headerlink" title="2.15反外挂反作弊"></a><strong>2.15反外挂反作弊</strong></h3><ul>
+<li>包频率控制可以消灭变速齿轮</li>
+<li>包id自增校验，可以消灭WPE</li>
+<li>包校验码可以消灭或者拦截篡改的包</li>
+<li>图形识别码，可以踢掉99%非人的操作</li>
+<li><strong>魔高一尺，道高一丈</strong></li>
+</ul>
+<h3 id="2-16热更新"><a href="#2-16热更新" class="headerlink" title="2.16热更新"></a><strong>2.16热更新</strong></h3><ul>
+<li>核心配置逻辑的热更新，如防沉迷系统，包频率控制，开关控制等</li>
+<li>代码基本热更新，如Erlang，Lua等</li>
+</ul>
+<h3 id="2-17防刷"><a href="#2-17防刷" class="headerlink" title="2.17防刷"></a><strong>2.17防刷</strong></h3><ul>
+<li>关键系统资源（如元宝，精力值，道具，装备等）的产出记日志</li>
+<li>资源的产出和消耗尽量依赖两个或以上的独立条件的检测</li>
+<li>严格检查各项操作的前置条件</li>
+<li>校验参数合法性</li>
+</ul>
+<h3 id="2-18防崩溃"><a href="#2-18防崩溃" class="headerlink" title="2.18防崩溃"></a><strong>2.18防崩溃</strong></h3><ul>
+<li>系统底层与具体业务逻辑无关，可以用大量的机器人压力测试暴露各种bug，确保稳定</li>
+<li>业务逻辑建议使用脚本</li>
+<li>系统性的保证游戏不会崩溃</li>
+</ul>
+<h3 id="2-19性能优化"><a href="#2-19性能优化" class="headerlink" title="2.19性能优化"></a><strong>2.19性能优化</strong></h3><ul>
+<li>IO操作异步化</li>
+<li>IO操作合并缓写 （事务性的提交db操作，包合并，文件日志缓写）</li>
+<li>Cache机制</li>
+<li>减少竞态条件 (避免频繁进出切换，尽量减少锁定使用，多线程不一定由于单线程) 多线程不一定比单线程快</li>
+<li>减少内存复制</li>
+<li>自己测试，用数据说话，别猜</li>
+</ul>
+<h3 id="2-20运营支持"><a href="#2-20运营支持" class="headerlink" title="2.20运营支持"></a><strong>2.20运营支持</strong></h3><ul>
+<li>接口支持：实时查询，控制指令，数据监控，客服处理等</li>
+<li>实现考虑提供http接口</li>
+</ul>
+<h3 id="四、游戏开发岗位的前景"><a href="#四、游戏开发岗位的前景" class="headerlink" title="四、游戏开发岗位的前景"></a>四、游戏开发岗位的前景</h3><p>除了开发游戏是自己的梦想之外，还有一部分人是奔着游戏开发的高薪资去的。目前来看，游戏市场正在不断扩大，所以企业对游戏技术开发精英人才的需求也越来越大。就业有前途吗？答案是非常肯定的，任何专业的精英人才都会受到重视，游戏开发的难度较大，各大手游企业都在花高薪聘请专业人才。</p>
+<p>所以，不管在什么时候，游戏开发的就业前景都是十分理想的。对于刚学成的新学员来说，刚开始的薪资固然不会太高，但在有了一定工作经验之后，薪资待遇就会慢慢提升。</p>
+<p><img src="https://pic3.zhimg.com/80/v2-cdaf9d3ecee3239ae8181328fd372a26_720w.jpg" alt="img"></p>
+<p>正常情况下，工作经验达到三年以上的游戏开发工程师，月薪可以达到一万元以上，自身开发师的月薪甚至高达十万，对于这样的收入大家还算满意吗？</p>
+<p>调查数据显示，截止到目前，中国游戏市场实际销售收入达到1144.8亿元，比去年同期增长了37.7%，其中端游收入608.9亿元，网页游戏收入202.7亿元，移动游戏收入274.9亿元，社交游戏收入57.8亿元，单机游戏收入0.5亿元，其中移动游戏销售收入首次超越页游。</p>
+<p>中国游戏市场用户数量为5.17亿人，比去年同比增长了4.6%，移动游戏用户数量约为3.58亿人，同比增长15.1%。</p>
+<p>由此可见，游戏行业发展的顺风顺水，游戏公司也一概往日缺钱的面貌，变得不差钱，但是游戏研发人才的紧缺却成了锁住游戏公司喉咙的问题，所以游戏公司为了招揽人才，自然也就开出高薪。不管是放在以前还是现在，游戏开发行业仍然非常缺高技术人才，因为游戏开发行业的入门难，技术栈多，并且对于游戏开发者来说转行是很难的，用一句短语来形容就是“最美逆行者”。并且在游戏开发这个行业，加班加点熬夜肯定是比其他互联网行业更多的，这点也是跟薪资成正比。并且开发一款优秀的游戏成本大，周期长，如果不是真正热爱游戏的开发者，也许很快就会被游戏开发的门槛给劝退了。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://example.com">GE</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://example.com/2022/10/04/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/">http://example.com/2022/10/04/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/10/04/Android/"><img class="prev-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info"></div></div></a></div><div class="next-post pull-right"><a href="/2022/10/04/Game%20develop/"><img class="next-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">test</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">GE</div><div class="author-info__description">��������</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B5%85%E8%B0%88%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91"><span class="toc-number">1.</span> <span class="toc-text">浅谈游戏开发</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%B8%B8%E6%88%8F%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91"><span class="toc-number">1.1.</span> <span class="toc-text">一、游戏客户端开发</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3C%EF%BC%88Character%EF%BC%8CCamera%EF%BC%8CController%EF%BC%89"><span class="toc-number">1.1.1.</span> <span class="toc-text">3C（Character，Camera，Controller）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E7%A8%8B%E5%BA%8F%E4%B8%AD%E7%9A%843C"><span class="toc-number">1.1.2.</span> <span class="toc-text">游戏程序中的3C</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#UI%E5%BC%80%E5%8F%91"><span class="toc-number">1.1.3.</span> <span class="toc-text">UI开发</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91%E5%BC%80%E5%8F%91"><span class="toc-number">1.1.4.</span> <span class="toc-text">游戏逻辑开发</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E5%B1%82"><span class="toc-number">1.1.5.</span> <span class="toc-text">网络层</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%B2%E6%9F%93"><span class="toc-number">1.1.6.</span> <span class="toc-text">渲染</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E9%93%BE"><span class="toc-number">1.1.7.</span> <span class="toc-text">工具链</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SDK"><span class="toc-number">1.1.8.</span> <span class="toc-text">SDK</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91"><span class="toc-number">1.2.</span> <span class="toc-text">二、游戏引擎开发</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AB%AF%E6%B8%B8%E5%BC%95%E6%93%8E"><span class="toc-number">1.2.1.</span> <span class="toc-text">端游引擎</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%89%8B%E6%9C%BA%E5%BC%95%E6%93%8E"><span class="toc-number">1.2.2.</span> <span class="toc-text">手机引擎</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%9F%BA%E7%A1%80"><span class="toc-number">1.2.3.</span> <span class="toc-text">图形学基础</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E8%B7%B5%EF%BC%9A%E8%BD%AF%E5%85%89%E6%A0%85"><span class="toc-number">1.2.4.</span> <span class="toc-text">实践：软光栅</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E8%B7%B5%EF%BC%9A%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA"><span class="toc-number">1.2.5.</span> <span class="toc-text">实践：光线追踪</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%B2%E6%9F%93%E8%BF%9B%E9%98%B6"><span class="toc-number">1.2.6.</span> <span class="toc-text">渲染进阶</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E5%BD%A2%E5%AD%A6API"><span class="toc-number">1.2.7.</span> <span class="toc-text">图形学API</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89-%E3%80%81%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%BC%80%E5%8F%91"><span class="toc-number">1.3.</span> <span class="toc-text">三 、游戏服务端开发</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%EF%BC%8C%E7%B3%BB%E7%BB%9F%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="toc-number">1.3.1.</span> <span class="toc-text">一，系统初始化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%EF%BC%8C%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91"><span class="toc-number">1.3.2.</span> <span class="toc-text">二，游戏逻辑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%EF%BC%8C%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.3.3.</span> <span class="toc-text">三，数据库系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%EF%BC%8C%E7%BC%93%E5%AD%98%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.3.4.</span> <span class="toc-text">四，缓存系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%94%EF%BC%8C%E6%B8%B8%E6%88%8F%E6%97%A5%E5%BF%97"><span class="toc-number">1.3.5.</span> <span class="toc-text">五，游戏日志</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%AD%EF%BC%8C-%E6%B8%B8%E6%88%8F%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7"><span class="toc-number">1.3.6.</span> <span class="toc-text">六， 游戏管理工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%83%EF%BC%8C%E5%85%AC%E5%85%B1%E7%BB%84%E4%BB%B6"><span class="toc-number">1.3.7.</span> <span class="toc-text">七，公共组件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E4%B8%93%E4%B8%9A%E5%9F%BA%E7%A1%80"><span class="toc-number">1.3.8.</span> <span class="toc-text">一、专业基础</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1%E7%BD%91%E7%BB%9C"><span class="toc-number">1.3.9.</span> <span class="toc-text">1.1网络</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-1%E7%90%86%E8%A7%A3TCP-x2F-IP%E5%8D%8F%E8%AE%AE"><span class="toc-number">1.3.9.1.</span> <span class="toc-text">1.1.1理解TCP&#x2F;IP协议</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2%E6%8E%8C%E6%8F%A1%E5%B8%B8%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1%E6%A8%A1%E5%9E%8B"><span class="toc-number">1.3.9.2.</span> <span class="toc-text">1.1.2掌握常用的网络通信模型</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2%E5%AD%98%E5%82%A8"><span class="toc-number">1.3.10.</span> <span class="toc-text">1.2存储</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3%E7%A8%8B%E5%BA%8F"><span class="toc-number">1.3.11.</span> <span class="toc-text">1.3程序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8"><span class="toc-number">1.3.12.</span> <span class="toc-text">二、游戏开发入门</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1%E9%98%B2%E5%BE%A1%E5%BC%8F%E7%BC%96%E7%A8%8B"><span class="toc-number">1.3.13.</span> <span class="toc-text">2.1防御式编程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.3.14.</span> <span class="toc-text">2.2设计模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B"><span class="toc-number">1.3.15.</span> <span class="toc-text">2.3网络模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96"><span class="toc-number">1.3.16.</span> <span class="toc-text">2.4数据持久化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86"><span class="toc-number">1.3.17.</span> <span class="toc-text">2.5内存管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-6%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.3.18.</span> <span class="toc-text">2.6日志系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-7%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE"><span class="toc-number">1.3.19.</span> <span class="toc-text">2.7通信协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-8%E5%85%A8%E5%B1%80%E5%94%AF%E4%B8%80Key%EF%BC%88GUID%EF%BC%89"><span class="toc-number">1.3.20.</span> <span class="toc-text">2.8全局唯一Key（GUID）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-9%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%90%8C%E6%AD%A5"><span class="toc-number">1.3.21.</span> <span class="toc-text">2.9多线程与同步</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-10%E7%8A%B6%E6%80%81%E6%9C%BA"><span class="toc-number">1.3.22.</span> <span class="toc-text">2.10状态机</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-11%E6%95%B0%E6%8D%AE%E5%8C%85%E6%93%8D%E4%BD%9C"><span class="toc-number">1.3.23.</span> <span class="toc-text">2.11数据包操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-12%E7%8A%B6%E6%80%81%E7%9B%91%E6%8E%A7"><span class="toc-number">1.3.24.</span> <span class="toc-text">2.12状态监控</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-13%E5%8C%85%E9%A2%91%E7%8E%87%E6%8E%A7%E5%88%B6"><span class="toc-number">1.3.25.</span> <span class="toc-text">2.13包频率控制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-14%E5%BC%80%E5%85%B3%E6%8E%A7%E5%88%B6"><span class="toc-number">1.3.26.</span> <span class="toc-text">2.14开关控制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-15%E5%8F%8D%E5%A4%96%E6%8C%82%E5%8F%8D%E4%BD%9C%E5%BC%8A"><span class="toc-number">1.3.27.</span> <span class="toc-text">2.15反外挂反作弊</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-16%E7%83%AD%E6%9B%B4%E6%96%B0"><span class="toc-number">1.3.28.</span> <span class="toc-text">2.16热更新</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-17%E9%98%B2%E5%88%B7"><span class="toc-number">1.3.29.</span> <span class="toc-text">2.17防刷</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-18%E9%98%B2%E5%B4%A9%E6%BA%83"><span class="toc-number">1.3.30.</span> <span class="toc-text">2.18防崩溃</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-19%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96"><span class="toc-number">1.3.31.</span> <span class="toc-text">2.19性能优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-20%E8%BF%90%E8%90%A5%E6%94%AF%E6%8C%81"><span class="toc-number">1.3.32.</span> <span class="toc-text">2.20运营支持</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%B2%97%E4%BD%8D%E7%9A%84%E5%89%8D%E6%99%AF"><span class="toc-number">1.3.33.</span> <span class="toc-text">四、游戏开发岗位的前景</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/10/04/Android/" title="No title"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2022/10/04/Android/" title="No title">No title</a><time datetime="2022-10-03T16:36:18.910Z" title="Created 2022-10-04 00:36:18">2022-10-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/04/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" title="No title"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"/></a><div class="content"><a class="title" href="/2022/10/04/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" title="No title">No title</a><time datetime="2022-10-03T16:32:34.651Z" title="Created 2022-10-04 00:32:34">2022-10-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/04/Game%20develop/" title="test"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="test"/></a><div class="content"><a class="title" href="/2022/10/04/Game%20develop/" title="test">test</a><time datetime="2022-10-03T16:07:17.000Z" title="Created 2022-10-04 00:07:17">2022-10-04</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2022/10/03/hello-world/" title="Hello World">Hello World</a><time datetime="2022-10-03T15:32:18.224Z" title="Created 2022-10-03 23:32:18">2022-10-03</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By GE</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
